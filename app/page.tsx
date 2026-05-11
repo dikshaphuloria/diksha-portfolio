@@ -136,6 +136,27 @@ export default function Home() {
               >
                 Know More About Me ✦
               </Link>
+              
+              <Link href="/resume.pdf" target="_blank" style={{
+                padding: '0.85rem 1.8rem', borderRadius: '14px',
+                fontSize: '0.875rem', fontWeight: 500,
+                color: 'var(--muted)', background: 'transparent',
+                border: '2px solid var(--border)',
+                textDecoration: 'none', transition: 'all 0.2s ease',
+              }}
+                onMouseEnter={e => {
+                  (e.currentTarget as HTMLElement).style.borderColor = 'var(--accent)'
+                  ;(e.currentTarget as HTMLElement).style.color = 'var(--accent)'
+                  ;(e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)'
+                }}
+                onMouseLeave={e => {
+                  (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)'
+                  ;(e.currentTarget as HTMLElement).style.color = 'var(--muted)'
+                  ;(e.currentTarget as HTMLElement).style.transform = 'translateY(0)'
+                }}
+              >
+                View Resume ↗
+              </Link>
             </motion.div>
 
             {/* Location */}

@@ -65,9 +65,9 @@ export const info = {
 
       skills: {
         "Languages": ["Python", "SQL", "R"],
-        "ML & AI": ["PyTorch", "Hugging Face", "Sparse Autoencoders", "Fine tuning", "Agentic AI", "LLM", "NLP"],
-        "Full-Stack": ["FastAPI", "Next.js", "PostgreSQL", "Docker", "Streamlit"],
-        "Analytics": ["Predictive Modeling", "Feature Engineering", "Causal Inference", "ETL"],
+        "Platforms": ["FastAPI", "VS Code", "MySQL", "Docker", "Streamlit", "Google Colab"],
+        "Analytics": ["Pandas", "Predictive Modeling", "Feature Engineering", "Causal Inference", "ETL"],
+        "Concepts" : ["Data Wrangling", "Data Visualization", "NLP", "LLM Interpretability", "Agentic AI Systems", "Sustainable ML", "Data Storytelling"],
       },
 
       projects: [
@@ -76,6 +76,7 @@ export const info = {
           subtitle: "via Sparse Autoencoders",
           summary: "Large language models like GPT-2 are powerful, but their internal mechanisms and feature representations remain opaque. This project uses sparse autoencoders to investigate how GPT-2 internally represents and understands climate change concepts.",
           tech: "Python · PyTorch · Hugging Face · Google Colab A100",
+          github:"https://github.com/dikshaphuloria/climate-sae-gpt2.git",
           bullets: [
             "Trained a 32,768-feature SAE on 839,773 GPT-2 Medium activations, extending Anthropic's mechanistic interpretability framework to the climate domain.",
             "Discovered Carbon (15.96×) and Greenhouse/Emissions (8.56×) as the most climate-selective features across 21 analyzed.",
@@ -87,6 +88,7 @@ export const info = {
           subtitle: "Agentic AI Meal Planning System",
           summary: "NutriSync is a smart meal planning app which addresses a core gap in existing nutrition apps: the inability to adapt to real-world variability such as changing pantry stocks, evolving dietary goals/restrictions, meal-prep habits, and spontaneous cravings. NutriSync handles all of these through an interconnected pipeline",
           tech: "Next.js · FastAPI · PostgreSQL · Google Gemini · Docker",
+          github:"https://github.com/shrutielangovan/meal-plan-project.git",
           bullets: [
             "Built a full-stack agentic AI platform unifying meal planning, nutrition tracking, pantry management, and grocery shopping with HITL checkpoints.",
             "Engineered cross-module data propagation — selecting a meal auto-updates pantry, macros, and grocery list instantly.",
@@ -98,6 +100,7 @@ export const info = {
           subtitle: "AI Video & Image Authenticity Detector",
           summary:"As AI-generated videos and images flood the internet, telling real from fake is increasingly hard, Veralyze combines multiple forensic signals to give you a verdict with evidence, not just a guess.",
           tech: "FastAPI · Next.js · Gemini Vision · FFmpeg · Pillow",
+          github:"https://github.com/dikshaphuloria/Veralyze.git",
           bullets: [
             "Built a forensic web app detecting AI-generated content using Gemini Vision, ELA, frame transition analysis, and EXIF inspection.",
             "Clean split between signal collection (analyzer.py) and scoring logic (scorer.py) with duration-aware FFmpeg frame sampling.",
@@ -109,6 +112,7 @@ export const info = {
           subtitle: "in Language Model Fine-Tuning",
           summary: "Training AI models has a real environmental cost that rarely gets measured, this project tracks exactly how much CO₂ different fine-tuning strategies produce and whether the performance trade-off is worth it.",
           tech: "Python · Hugging Face · CodeCarbon · SQuAD v2.0",
+          github:"https://github.com/shrutielangovan/CarbonEmissionsinFine-TuningLanguageModelS.git",
           bullets: [
             "Benchmarked DistilBERT, BERT, RoBERTa & GPT-2 across full fine-tuning, LoRA, and few-shot learning with CodeCarbon emission tracking.",
             "RoBERTa + LoRA was optimal: F1=0.7426, 9.56 F1/kg CO₂, achieving ~95% performance with 12–24% lower emissions.",

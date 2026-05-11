@@ -3,6 +3,8 @@
 import { motion } from 'framer-motion'
 import PageWrapper from '@/components/PageWrapper'
 import { info } from '@/data/info'
+import Link from 'next/link'
+import { FaGithub as Github } from 'react-icons/fa'
 
 const fadeUp = {
   initial: { opacity: 0, y: 24 },
@@ -279,20 +281,48 @@ export default function Academic() {
                 >
                   {/* Project header */}
                   <div style={{ marginBottom: '0.75rem' }}>
-                    <h3 style={{
-                      fontFamily: 'DM Serif Display, serif',
-                      fontSize: '1.15rem', color: 'var(--foreground)',
+                    <div style={{
+                      display: 'flex', alignItems: 'flex-start',
+                      justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.5rem',
                       marginBottom: '0.15rem',
                     }}>
-                      {project.title}
-                    </h3>
+                      <h3 style={{
+                        fontFamily: 'DM Serif Display, serif',
+                        fontSize: '1.15rem', color: 'var(--foreground)',
+                      }}>
+                        {project.title}
+                      </h3>
+                      {/* Links */}
+                      <div style={{ display: 'flex', gap: '0.5rem', flexShrink: 0 }}>
+                        {project.github && (
+                          <Link href={project.github} target="_blank" rel="noopener noreferrer"
+                            style={{
+                              display: 'flex', alignItems: 'center', gap: '0.3rem',
+                              fontSize: '0.75rem', fontWeight: 500,
+                              color: 'var(--accent)', textDecoration: 'none',
+                              padding: '0.25rem 0.7rem', borderRadius: '999px',
+                              border: '1px solid var(--accent)',
+                              transition: 'all 0.2s ease',
+                            }}
+                            onMouseEnter={e => {
+                              (e.currentTarget as HTMLElement).style.background = 'var(--accent-light)'
+                            }}
+                            onMouseLeave={e => {
+                              (e.currentTarget as HTMLElement).style.background = 'transparent'
+                            }}
+                          >
+                            <Github size={13} /> GitHub
+                          </Link>
+                        )}
+                      
+                      </div>
+                    </div>
                     <p style={{
                       fontSize: '0.85rem', color: 'var(--accent)',
                       fontStyle: 'italic', marginBottom: '0.5rem',
                     }}>
                       {project.subtitle}
                     </p>
-                    {/* Summary */}
                     <p style={{
                       fontSize: '0.875rem', color: 'black',
                       lineHeight: 1.7, marginBottom: '0.75rem',
@@ -303,7 +333,6 @@ export default function Academic() {
                     }}>
                       {project.summary}
                     </p>
-                    {/* Tech */}
                     <p style={{
                       fontSize: '0.75rem', color: 'var(--muted)',
                       fontFamily: 'monospace',
