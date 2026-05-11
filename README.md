@@ -3,7 +3,7 @@
 A personal portfolio website built with Next.js, showcasing my academic background, 
 projects, and a little bit about who I am beyond the resume.
 
-🌐 **Live Site:** [your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
+🌐 **Live Site:** [your-vercel-url.vercel.app](https://diksha-portfolio-two-sage.vercel.app/)
 
 ## Pages
 - **Home** — Introduction with a short summary and quick navigation
