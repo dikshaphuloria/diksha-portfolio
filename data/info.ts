@@ -65,7 +65,7 @@ export const info = {
 
       skills: {
         "Languages": ["Python", "SQL", "R"],
-        "Platforms": ["FastAPI", "VS Code", "MySQL", "Docker", "Streamlit", "Google Colab"],
+        "Platforms": ["Hugging Face", "VS Code", "MySQL", "Docker", "Streamlit", "Google Colab"],
         "Analytics": ["Pandas", "Predictive Modeling", "Feature Engineering", "Causal Inference", "ETL"],
         "Concepts" : ["Data Wrangling", "Data Visualization", "NLP", "LLM Interpretability", "Agentic AI Systems", "Sustainable ML", "Data Storytelling"],
       },
