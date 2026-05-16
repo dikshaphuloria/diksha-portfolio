@@ -38,7 +38,7 @@ export const info = {
           degree: "MS, Data Science",
           date: "Aug 2024 – May 2026",
           location: "New Brunswick, NJ",
-          gpa: "3.88 / 4.0",
+          gpa: "3.9 / 4.0",
         },
         {
           school: "Manipal University Jaipur",
