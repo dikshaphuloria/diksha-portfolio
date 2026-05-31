@@ -189,62 +189,6 @@ export default function About() {
             </div>
           </motion.section>
 
-          {/* CERTIFICATIONS */}
-          <motion.section
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-          >
-            <h2 style={{
-              fontFamily: 'DM Serif Display, serif',
-              fontSize: '1.6rem', color: 'var(--foreground)',
-              marginBottom: '1.25rem', paddingBottom: '0.5rem',
-              borderBottom: '1px solid var(--border)',
-            }}>
-              Certifications
-            </h2>
-
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              {info.certifications.map((cert, i) => (
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 12 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.45 + i * 0.1 }}
-                >
-                  <Link
-                    href={cert.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: 'none' }}
-                    onMouseEnter={e => {
-                      (e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)'
-                      ;(e.currentTarget as HTMLElement).style.boxShadow = '0 6px 20px rgba(92,122,95,0.12)'
-                    }}
-                    onMouseLeave={e => {
-                      (e.currentTarget as HTMLElement).style.transform = 'translateY(0)'
-                      ;(e.currentTarget as HTMLElement).style.boxShadow = 'none'
-                    }}
-                  >
-                    <div style={{
-                      background: 'var(--card)', borderRadius: '14px',
-                      padding: '1rem 1.25rem', border: '1px solid var(--border)',
-                      display: 'flex', alignItems: 'center',
-                      justifyContent: 'space-between', gap: '0.75rem',
-                      transition: 'all 0.2s ease',
-                    }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                        <span style={{ fontSize: '1.2rem' }}>🏅</span>
-                        <span style={{ fontSize: '0.9rem', color: 'var(--muted)' }}>{cert.name}</span>
-                      </div>
-                      <ExternalLink size={15} color="var(--accent)" style={{ flexShrink: 0 }} />
-                    </div>
-                  </Link>
-                </motion.div>
-              ))}
-            </div>
-          </motion.section>
-
         </div>
       </div>
     </PageWrapper>

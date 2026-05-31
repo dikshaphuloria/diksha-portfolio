@@ -131,9 +131,14 @@ export const info = {
           url: "https://verify.skilljar.com/c/zimkbb8n4248"
         },
         {
+          name: "Artificial Intelligence Fundamentals — IBM (May 2026)",
+          url: "https://www.credly.com/badges/91726955-70ed-4480-9d40-7959985e4c7f/public_url"
+        },
+        {
           name: "L'Oréal Brandstorm Participation Certificate — 2026",
           url: "https://drive.google.com/file/d/1JcJlSz5Xy9yvvfjtO_1N1fZz1TsSGXBD/view"
         },
+
       ],
 
 };
