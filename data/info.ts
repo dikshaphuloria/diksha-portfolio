@@ -123,7 +123,7 @@ export const info = {
 
       certifications: [
         {
-          name: "McKinsey.org Forward Program",
+          name: "McKinsey.org Forward Program - McKinsey.org (June 2026)",
           url: "https://www.credly.com/badges/9fc4d1f7-ea00-4b01-8a1a-b02645129554/public_url"
         },
         {
