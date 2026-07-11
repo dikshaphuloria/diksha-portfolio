@@ -123,16 +123,20 @@ export const info = {
 
       certifications: [
         {
-          name: "SnowPro Core Certification — Snowflake (Aug 2025 – Aug 2027)",
-          url: "https://achieve.snowflake.com/f93aa466-1e48-4236-a287-fbfb880b7dd8#acc.N5oiShaZ"
+          name: "McKinsey.org Forward Program",
+          url: "https://www.credly.com/badges/9fc4d1f7-ea00-4b01-8a1a-b02645129554/public_url"
+        },
+        {
+          name: "Artificial Intelligence Fundamentals — IBM (May 2026)",
+          url: "https://www.credly.com/badges/91726955-70ed-4480-9d40-7959985e4c7f/public_url"
         },
         {
           name: "Claude 101 Certification — Anthropic (May 2026)",
           url: "https://verify.skilljar.com/c/zimkbb8n4248"
         },
         {
-          name: "Artificial Intelligence Fundamentals — IBM (May 2026)",
-          url: "https://www.credly.com/badges/91726955-70ed-4480-9d40-7959985e4c7f/public_url"
+          name: "SnowPro Core Certification — Snowflake (Aug 2025 – Aug 2027)",
+          url: "https://achieve.snowflake.com/f93aa466-1e48-4236-a287-fbfb880b7dd8#acc.N5oiShaZ"
         },
         {
           name: "L'Oréal Brandstorm Participation Certificate — 2026",
