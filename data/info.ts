@@ -56,18 +56,20 @@ export const info = {
           date: "May 2021 – Jun 2023",
           location: "Gurugram, India",
           bullets: [
-            "Supported Tableau and Cognos enterprise analytics platforms, improving reporting reliability.",
-            "Debugged 100+ client-reported data pipeline and application issues via ServiceNow.",
-            "Monitored SLA compliance metrics to drive client satisfaction across enterprise engagements.",
+            "Analyzed and visualized financial data for a banking client using Tableau and Power BI, improving reporting reliability and supporting data-driven decision making.",
+            "Debugged and maintained data pipelines across critical banking systems, ensuring data integrity and reliable flow across large-scale financial operations.",
+            "Resolved 100+ client-reported data issues via ServiceNow, identifying root causes in workflows and reducing recurring pipeline failures.",
+            "Monitored data quality metrics and SLA compliance, translating findings into stakeholder reports to drive operational performance.",
           ],
         },
       ],
 
       skills: {
         "Languages": ["Python", "SQL", "R"],
-        "Platforms": ["Hugging Face", "VS Code", "MySQL", "Docker", "Streamlit", "Google Colab"],
-        "Analytics": ["Pandas", "Predictive Modeling", "Feature Engineering", "Causal Inference", "ETL"],
-        "Concepts" : ["Data Wrangling", "Data Visualization", "NLP", "LLM Interpretability", "Agentic AI Systems", "Sustainable ML", "Data Storytelling"],
+        "Machine Learning & AI": ['Predictive Modeling', 'NLP', 'LLMs', 'Sparse Autoencoders', 'LoRA', 'Agentic AI', 'Mechanistic Interpretability', 'Causal Inference', 'Feature Engineering'],
+        "Data Analysis & Visualization": ['Tableau', 'Power BI', 'Pandas', 'EDA', 'Data Wrangling', 'Data Pipeline Development', 'ETL/ELT'],
+        "Databases & Platforms" : ['PostgreSQL', 'MySQL', 'Snowflake', 'Microsoft Fabric', 'Azure Data Factory (ADF)', 'OneLake', 'Streamlit', 'Google Colab', 'ServiceNow', 'Git', 'VS Code'],
+        'Frameworks & Tools': ['FastAPI', 'Next.js', 'Docker', 'Hugging Face', 'PyTorch', 'SQLAlchemy']
       },
 
       projects: [
