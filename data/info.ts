@@ -68,8 +68,8 @@ export const info = {
         "Languages": ["Python", "SQL", "R"],
         "Machine Learning & AI": ['Predictive Modeling', 'NLP', 'LLMs', 'Sparse Autoencoders', 'LoRA', 'Agentic AI', 'Mechanistic Interpretability', 'Causal Inference', 'Feature Engineering'],
         "Data Analysis & Visualization": ['Tableau', 'Power BI', 'Pandas', 'EDA', 'Data Wrangling', 'Data Pipeline Development', 'ETL/ELT'],
-        "Databases & Platforms" : ['PostgreSQL', 'MySQL', 'Snowflake', 'Microsoft Fabric', 'Azure Data Factory (ADF)', 'OneLake', 'Streamlit', 'Google Colab', 'ServiceNow', 'Git', 'VS Code'],
-        'Frameworks & Tools': ['FastAPI', 'Next.js', 'Docker', 'Hugging Face', 'PyTorch', 'SQLAlchemy']
+        "Databases & Platforms" : ['PostgreSQL', 'MySQL', 'Snowflake', 'Streamlit', 'Google Colab', 'ServiceNow', 'Git', 'VS Code'],
+        'Frameworks & Tools': ['FastAPI', 'Next.js', 'Docker', 'Hugging Face', 'SQLAlchemy']
       },
 
       projects: [
